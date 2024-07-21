@@ -8,17 +8,16 @@ import lombok.Data;
 
 @Entity
 @Data
-public class User {
+public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     private String name;
 
-    private String tel;
+    private String desc;
 
-    private String address;
+    private String brand;
 
-    private String password;
-
+    private String category;
 }
